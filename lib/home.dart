@@ -26,12 +26,11 @@ class _MyHomePageState extends State<MyHomePage> {
           ],
         ),
       )),
-      bottomNavigationBar: BottomAppBar(
-          shape: CircularNotchedRectangle(),
-          child: BottomNavigationBar(items: const <BottomNavigationBarItem>[
-            BottomNavigationBarItem(icon: Icon(Icons.brush), label: "Habits"),
-            BottomNavigationBarItem(icon: Icon(Icons.brush), label: "Todo"),
-          ])),
+      bottomNavigationBar:
+          BottomNavigationBar(items: const <BottomNavigationBarItem>[
+        BottomNavigationBarItem(icon: Icon(Icons.brush), label: "Habits"),
+        BottomNavigationBarItem(icon: Icon(Icons.brush), label: "Todo"),
+      ]),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
       floatingActionButton: const FloatingActionButton(
         onPressed: null,
